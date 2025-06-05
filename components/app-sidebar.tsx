@@ -31,21 +31,13 @@ const items = [
     icon: LayoutDashboard,
   },
   {
-    title: "My Links",
+    title: "My Linkme",
     url: "/dashboard/links",
     icon: Link,
     children: [
       {
-        title: "All Links",
+        title: "Links",
         url: "/dashboard/links",
-      },
-      {
-        title: "Add New",
-        url: "/dashboard/links/new",
-      },
-      {
-        title: "Categories",
-        url: "/dashboard/links/categories",
       },
     ],
   },
